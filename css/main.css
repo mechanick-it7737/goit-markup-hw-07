@@ -238,12 +238,8 @@ summary {
   display: list-item;
 }
 
-html {
-  box-sizing: border-box;
-}
-
 body {
-  color: var(--primary-text-color);
+  color: #212121;
   font-family: "Roboto", sans-serif;
 }
 
@@ -256,28 +252,15 @@ p {
   margin-bottom: 0;
 }
 
-.list {
+ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.link {
+a {
   text-decoration: none;
   color: inherit;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 img {
@@ -298,7 +281,20 @@ button {
   cursor: pointer;
 }
 
-.section {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+section {
   padding-top: 94px;
   padding-bottom: 94px;
   margin: 0 auto;
@@ -358,6 +354,9 @@ button {
 }
 
 .header-nav__link {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -372,8 +371,6 @@ button {
 .header-nav__item {
   position: relative;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .header-nav__item:last-child {
   margin-right: 0;
@@ -519,19 +516,18 @@ button {
 }
 
 .studio-subtitle__wrap {
-  align-items: center;
-  justify-content: center;
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(47, 48, 58, 0.8);
 }
 
 .studio__subtitle {
-  margin: 27px 0;
-  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -559,8 +555,12 @@ button {
   margin-right: 0;
 }
 
+.team-photo-name__wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-photo__name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -577,7 +577,6 @@ button {
 }
 
 .team-icon__list {
-  margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
@@ -933,16 +932,16 @@ button {
   margin-right: -30px;
 }
 
-.modal__checkbox {
+.modal-checkbox {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.modal__checkbox__input:checked + .modal-chekbox__icon {
+.modal-checkbox__input:checked + .modal-chekbox__icon {
   opacity: 1;
 }
-.modal__checkbox__input:checked ~ .modal-checkbox__box {
+.modal-checkbox__input:checked ~ .modal-checkbox__box {
   opacity: 0;
 }
 

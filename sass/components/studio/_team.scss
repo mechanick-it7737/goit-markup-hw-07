@@ -21,8 +21,12 @@
   }
 }
 
+.team-photo-name__wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-photo__name {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -42,8 +46,6 @@
 }
 
 .team-icon__list {
-  margin-bottom: 30px;
-
   display: flex;
   justify-content: center;
 }
