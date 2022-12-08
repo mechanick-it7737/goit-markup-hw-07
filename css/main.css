@@ -247,7 +247,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -317,7 +321,7 @@ button {
   letter-spacing: 0.03em;
 }
 
-.footer__titel {
+.footer__title {
   display: block;
   margin-bottom: 20px;
   font-weight: 700;
@@ -340,7 +344,7 @@ button {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: #2196f3;
   cursor: pointer;
 }
 
@@ -362,7 +366,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav__link:hover, .header-nav__link:focus, .header-nav__link--current {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .header-nav__item {
@@ -382,7 +386,7 @@ button {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .header-contacts__icon {
@@ -408,7 +412,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts__link:hover, .header-contacts__link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .header-contacts__item {
@@ -420,7 +424,7 @@ button {
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: #2F303A;
+  background-color: #2f303a;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-image.jpg);
   background-position: center;
 }
@@ -448,14 +452,14 @@ button {
   height: 50px;
   border-radius: 4px;
   padding: 10px 32px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: #ffffff;
-  border-color: #2196F3;
+  border-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .hero__button:active {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .task__container {
@@ -475,7 +479,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 
@@ -537,7 +541,7 @@ button {
 }
 
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-photo__list {
@@ -594,12 +598,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #AFB1B8;
+  color: #afb1b8;
   background-color: transparent;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon__link:hover, .team-icon__link:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: #ffffff;
 }
 
@@ -627,15 +631,15 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: #AFB1B8;
+  color: #afb1b8;
   background-color: transparent;
   transition: color var(--animation), border var(--animation);
 }
 .clients-icon__link:hover, .clients-icon__link:focus {
-  color: #2196F3;
-  border-color: #2196F3;
+  color: #2196f3;
+  border-color: #2196f3;
 }
 
 .clients__icon {
@@ -647,7 +651,7 @@ button {
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .footer__wrap {
@@ -660,6 +664,8 @@ button {
 }
 
 .footer-nav__link {
+  display: inline-block;
+  margin-top: 9px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -667,7 +673,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-nav__link:hover, .footer-nav__link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .footer-nav__address {
@@ -707,7 +713,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socaial-icon__link:hover, .footer-socaial-icon__link:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .footer__icon {
@@ -744,10 +750,10 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form__input:hover, .footer-form__input:focus {
-  border-color: #2196F3;
+  border-color: #2196f3;
 }
 .footer-form__input:hover::placeholder, .footer-form__input:focus::placeholder {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .footer-form__button {
@@ -762,7 +768,7 @@ button {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: #ffffff;
   border-radius: 4px;
 }
@@ -831,7 +837,7 @@ button {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .modal__button:hover .modal-button__icon, .modal__button:focus .modal-button__icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .modal__title {
@@ -880,10 +886,10 @@ button {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__input:hover, .modal__input:focus {
-  border-color: #2196F3;
+  border-color: #2196f3;
 }
 .modal__input:hover + .modal__icon, .modal__input:focus + .modal__icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .modal__icon {
@@ -891,8 +897,8 @@ button {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
-  fill: var(--primary-text-color);
-  transition: fill #2196F3;
+  fill: #212121;
+  transition: fill #2196f3;
 }
 
 .modal__coment {
@@ -907,11 +913,11 @@ button {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  color: var(--primary-text-color);
+  color: #212121;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__coment:hover, .modal__coment:focus {
-  border-color: #2196F3;
+  border-color: #2196f3;
 }
 .modal__coment:hover::placeholder, .modal__coment:focus::placeholder {
   color: rgb(117, 117, 117);
@@ -933,12 +939,18 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.modal__checkbox__input:checked + .modal-chekbox__icon {
+  opacity: 1;
+}
+.modal__checkbox__input:checked ~ .modal-checkbox__box {
+  opacity: 0;
+}
 
 .modal-checkbox__link {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .modal-chekbox__icon {
@@ -947,7 +959,7 @@ button {
   left: 25px;
   transform: translateY(-50%);
   opacity: 0;
-  fill: #2196F3;
+  fill: #2196f3;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -966,14 +978,6 @@ button {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox__input:checked + .modal-chekbox__icon {
-  opacity: 1;
-}
-
-.modal-checkbox__input:checked ~ .modal-checkbox__box {
-  opacity: 0;
-}
-
 .modal-submit__button {
   min-width: 200px;
   height: 50px;
@@ -988,7 +992,7 @@ button {
   line-height: 1.89;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: #ffffff;
 }
 
@@ -1008,12 +1012,12 @@ button {
   padding: 6px 22px;
   min-width: 73px;
   border-radius: 4px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio__button:hover, .portfolio__button:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -1032,7 +1036,7 @@ button {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   outline: transparent;
 }
-.portfolio-project__link:hover.project-list-wrap, .portfolio-project__link:focus.project-list-wrap {
+.portfolio-project__link:hover .portfolio-project__wrap, .portfolio-project__link:focus .portfolio-project__wrap {
   transform: translateY(0);
 }
 
@@ -1045,7 +1049,6 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  overflow: auto;
   transform: translateY(101%);
   width: 100%;
   height: 100%;
@@ -1056,13 +1059,13 @@ button {
 
 .portfolio-project__text {
   font-size: 18px;
-  line-height: 1.15;
+  line-height: 1.55;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .portfolio-project__border {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
 }
